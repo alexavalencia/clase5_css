@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: #E6E6E6;
+    text-align: center;
+    
+}
+h1{
+    background-color: #C4C4C4 ;
+    font-size: 35px;
+    color: #005677;
+    text-align: center;
+    font-weight: normal bold;
+    letter-spacing: 0.4em;
+    padding: 10px;
+}
+
+.img_profile{
+   margin-bottom: 10px;
+   margin-top: 20px;
+   
+
+}
+.blank{
+    margin: 10%;
+}
+
+h2{
+    background-color: #C4C4C4 ;
+    font-size: 20px;
+    color: #005677;
+    text-align: left;
+    font-weight: normal bold;
+    letter-spacing: 0.4em;
+    padding: 10px;
+
+}
+
+span{
+    font-size: 15px;
+    text-align: justify;
+}
+.ul_date{
+    margin-left: 8%;
+    margin-top: 1%;
+    margin-bottom:  2%;
+    list-style-type: none;
+}
+.ul_user_info{
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom:  2%;
+}
+li{
+    padding: 4px;
+    width: 657px;
+}
+.date{
+
+    font-weight: bold;
+    
+
+}
+.user_info{
+    font-weight: bold;
+    font-style: italic;
+
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #005677;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer_icon{
+    margin-left: 5px;
+}
+
+.fa-brands {
+    padding: 0 2px;
+}
+i{
+    color: white;
+}
